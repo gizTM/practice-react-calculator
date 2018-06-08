@@ -18,11 +18,10 @@ class NumButton extends React.Component {
     }
     render() {
         return (
-            <a style={this.style}
-                href='#'
+            <div style={this.style}
                 onClick={this.props.onClick}>
                 {this.props.num}
-            </a>
+            </div>
         )
     }
 }
